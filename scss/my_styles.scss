@@ -1,0 +1,47 @@
+*::selection {
+  background-color: $primary;
+}
+.bg-primary *::selection {
+  background-color: $secondary;
+}
+.primary-color {
+  color: $primary;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.section.bg-primary .title,
+.section.bg-primary .subtitle {
+  color: $light-blue;
+}
+
+.logo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.message {
+  margin-top: -5.3rem;
+}
+
+.container .box {
+  padding: 3.5rem 2rem;
+  // box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
+  border-radius: 12px;
+  margin-top: -4rem;
+}
+
+.bg-secondary .title,
+.bg-secondary .subtitle {
+  color: $light-blue;
+}
