@@ -9,7 +9,7 @@ const ResumeComponent = (): JSX.Element => {
           <div className="box bg-secondary">
             <div className="title">You can find me:</div>
             <div className="columns">
-              <div className="column">
+              <div className="column is-clickable">
                 <div className="subtitle">Github</div>
                 <Image
                   src="/svg/icons8-github.svg"
@@ -18,7 +18,7 @@ const ResumeComponent = (): JSX.Element => {
                   height="100"
                 />
               </div>
-              <div className="column">
+              <div className="column is-clickable">
                 <div className="subtitle">Linked In</div>
                 <Image
                   src="/svg/linkedin-icon-2.svg"
@@ -27,7 +27,7 @@ const ResumeComponent = (): JSX.Element => {
                   height="100"
                 />
               </div>
-              <div className="column">
+              <div className="column is-clickable">
                 <div className="subtitle">Get My Resume</div>
                 <Image
                   src="/svg/undraw_Resume_re_hkth.svg"

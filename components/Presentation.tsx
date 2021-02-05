@@ -19,12 +19,12 @@ const PresentationComponent = (): JSX.Element => {
                 </div>
                 <button className="button is-primary">
                   <span>Information About Me</span>
-                  <span className="icon is-small">
+                  <span className="icon is-small mr-2">
                     <FontAwesomeIcon icon={faArrowCircleRight} />
                   </span>
                 </button>
               </div>
-              <div className="column">
+              <div className="column image-presentation">
                 <Image
                   src="/svg/undraw_Code_review_re_woeb.svg"
                   alt="Picture of code"

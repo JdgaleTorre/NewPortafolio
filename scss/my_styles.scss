@@ -45,3 +45,15 @@
 .bg-secondary .subtitle {
   color: $light-blue;
 }
+
+
+@media screen and (max-width: $tablet - 1px) {
+
+  .image-presentation {
+    margin-left: -5rem;
+  }
+
+  .container .box {
+    margin: -2rem 1rem 1rem 1rem;
+  }
+}

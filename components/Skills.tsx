@@ -49,8 +49,8 @@ const SkillsComponent = (): JSX.Element => {
                     <div className="card">
                       <div className="card-content">
                         <Image
-                          src="/svg/sass-1.svg"
-                          alt="Logo of sass"
+                          src="/svg/javascript.svg"
+                          alt="Logo of javascript"
                           width={50}
                           height={50}
                         />
@@ -61,8 +61,8 @@ const SkillsComponent = (): JSX.Element => {
                     <div className="card">
                       <div className="card-content">
                         <Image
-                          src="/svg/javascript.svg"
-                          alt="Logo of javascript"
+                          src="/svg/sass-1.svg"
+                          alt="Logo of sass"
                           width={50}
                           height={50}
                         />
@@ -121,7 +121,7 @@ const SkillsComponent = (): JSX.Element => {
                     <div className="card">
                       <div className="card-content">
                         <Image
-                          src="/svg/mongodb.svg"
+                          src="/svg/mongodb-icon-1.svg"
                           alt="Logo of mongodb"
                           width={50}
                           height={50}
