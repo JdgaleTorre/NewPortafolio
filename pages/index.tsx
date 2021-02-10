@@ -74,7 +74,8 @@ export default function Home() {
                 <a
                   href="https://confirm.udacity.com/EWPDCHSP"
                   target="_blank"
-                  className="secondary-color"
+                  rel="noopener noreferrer"
+                  className="special-link"
                 >
                   NanoDegree
                 </a>{" "}

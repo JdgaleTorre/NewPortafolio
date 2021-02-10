@@ -12,8 +12,6 @@ html {
   background-color: $secondary;
 }
 
-
-
 .primary-color {
   color: $primary;
 }
@@ -90,6 +88,17 @@ html {
 
 .skill-title:hover {
   top: -25px;
+}
+
+.special-link {
+  color: $title-color;
+  box-shadow: 0px -5px 0px 0px $primary inset;
+  transition: box-shadow 150ms ease-in-out;
+}
+
+.special-link:hover {
+  color: $light-blue;
+  box-shadow: 0px -25px 0px 0px #084c61 inset;
 }
 
 @media screen and (max-width: $tablet - 1px) {

@@ -23,7 +23,7 @@ const PortfolioComponent = (): JSX.Element => {
                     <a
                       href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
                       target="_blank"
-                      className="secondary-color "
+                      className="special-link"
                       rel="noopener noreferrer"
                     >
                       - Wikipedia
@@ -76,7 +76,7 @@ const PortfolioComponent = (): JSX.Element => {
                     <a
                       href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
                       target="_blank"
-                      className="secondary-color "
+                      className="special-link"
                       rel="noopener noreferrer"
                     >
                       - Wikipedia
