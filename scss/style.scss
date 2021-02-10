@@ -4,7 +4,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
 // Set your brand colors
-$blue: #58bedf;
+// $blue: #58bedf;
+$blue: #084C61;
 $dark-blue: #1590b9;
 $light-blue: #b6e7f7;
 $contrast: #6b797f6b;
@@ -36,6 +37,7 @@ $navbar-background-color: $body-background-color;
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/elements/icon.sass";
+@import "../node_modules/bulma/sass/elements/tag.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";

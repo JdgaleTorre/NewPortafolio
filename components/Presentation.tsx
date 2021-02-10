@@ -17,12 +17,12 @@ const PresentationComponent = (): JSX.Element => {
                     I'm a Front End Developer from Honduras.
                   </div>
                 </div>
-                <button className="button is-primary">
+                <a className="button is-primary" href="#aboutMe">
                   <span>Information About Me</span>
                   <span className="icon is-small mr-2">
                     <FontAwesomeIcon icon={faArrowCircleRight} />
                   </span>
-                </button>
+                </a>
               </div>
               <div className="column image-presentation">
                 <Image

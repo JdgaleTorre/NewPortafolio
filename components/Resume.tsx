@@ -10,22 +10,29 @@ const ResumeComponent = (): JSX.Element => {
             <div className="title">You can find me:</div>
             <div className="columns">
               <div className="column is-clickable">
-                <div className="subtitle">Github</div>
-                <Image
-                  src="/svg/icons8-github.svg"
-                  alt="Logo of github"
-                  width="100"
-                  height="100"
-                />
+                <a href="https://github.com/JdgaleTorre" target="_blank">
+                  <div className="subtitle">Github</div>
+                  <Image
+                    src="/svg/icons8-github.svg"
+                    alt="Logo of github"
+                    width="100"
+                    height="100"
+                  />
+                </a>
               </div>
               <div className="column is-clickable">
-                <div className="subtitle">Linked In</div>
-                <Image
-                  src="/svg/linkedin-icon-2.svg"
-                  alt="Logo of linkedIn"
-                  width="100"
-                  height="100"
-                />
+                <a
+                  href="https://www.linkedin.com/in/josedavidgale/"
+                  target="_blank"
+                >
+                  <div className="subtitle">Linked In</div>
+                  <Image
+                    src="/svg/linkedin-icon-2.svg"
+                    alt="Logo of linkedIn"
+                    width="100"
+                    height="100"
+                  />
+                </a>
               </div>
               <div className="column is-clickable">
                 <div className="subtitle">Get My Resume</div>

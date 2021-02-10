@@ -1,11 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *::selection {
   background-color: $primary;
+  color: $white;
 }
 .bg-primary *::selection {
   background-color: $secondary;
 }
 .primary-color {
   color: $primary;
+}
+
+.secondary-color {
+  color: $secondary;
 }
 
 .bg-primary {
@@ -17,7 +26,8 @@
 }
 
 .section.bg-primary .title,
-.section.bg-primary .subtitle {
+.section.bg-primary .subtitle,
+.section.bg-primary .icon {
   color: $light-blue;
 }
 
@@ -46,14 +56,45 @@
   color: $light-blue;
 }
 
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  margin-top: auto;
+}
+
+.skill-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  transition: all .2s ease-in-out;
+  z-index: 10;
+}
+
+.skill-title:hover {
+  top: -25px;
+}
 
 @media screen and (max-width: $tablet - 1px) {
-
   .image-presentation {
     margin-left: -5rem;
   }
 
   .container .box {
     margin: -2rem 1rem 1rem 1rem;
+  }
+}
+
+@include mobile {
+  .skill-title {
+    top: -25px;
+    transition: 0;
   }
 }
