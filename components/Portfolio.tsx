@@ -24,6 +24,7 @@ const PortfolioComponent = (): JSX.Element => {
                       href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
                       target="_blank"
                       className="secondary-color "
+                      rel="noopener noreferrer"
                     >
                       - Wikipedia
                     </a>
@@ -41,6 +42,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://jdgaletorre.github.io/GameOfLife2/"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faEye} />
@@ -51,6 +53,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://github.com/JdgaleTorre/GameOfLife2"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faGithub} />
@@ -74,6 +77,7 @@ const PortfolioComponent = (): JSX.Element => {
                       href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
                       target="_blank"
                       className="secondary-color "
+                      rel="noopener noreferrer"
                     >
                       - Wikipedia
                     </a>
@@ -88,13 +92,23 @@ const PortfolioComponent = (): JSX.Element => {
                   </div>
                 </div>
                 <footer className="card-footer">
-                  <a href="#" className="card-footer-item">
+                  <a
+                    href="https://pomodoro-timer-lac.vercel.app/"
+                    rel="noopener noreferrer"
+                    className="card-footer-item"
+                    target="_blank"
+                  >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faEye} />
                     </span>
                     Demo
                   </a>
-                  <a href="#" className="card-footer-item">
+                  <a
+                    href="https://github.com/JdgaleTorre/PomodoroTimer"
+                    rel="noopener noreferrer"
+                    className="card-footer-item"
+                    target="_blank"
+                  >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faGithub} />
                     </span>
@@ -127,6 +141,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://jdgaletorre.github.io/KnightTour/"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faEye} />
@@ -137,6 +152,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://github.com/JdgaleTorre/KnightTour"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faGithub} />
@@ -172,6 +188,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://jdgaletorre.github.io/MemoryGame/"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faEye} />
@@ -182,6 +199,7 @@ const PortfolioComponent = (): JSX.Element => {
                     href="https://github.com/JdgaleTorre/MemoryGame"
                     target="_blank"
                     className="card-footer-item"
+                    rel="noopener noreferrer"
                   >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faGithub} />

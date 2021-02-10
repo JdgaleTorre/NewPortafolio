@@ -32,7 +32,7 @@ export default function Home() {
                 I'm quietly confident, naturally curious, and perpetually
                 working on improving my developing skills. I hope you like my
                 work (You can see it{" "}
-                <a className="secondary-color" href="#portfolio">
+                <a className="contrast-color" href="#portfolio">
                   here
                 </a>
                 ).
@@ -66,8 +66,11 @@ export default function Home() {
               </h1>
               <h2 className="subtitle is-size-5-desktop">
                 I'm a developer from Honduras, I've been working since 2011 as a
-                developer. I have a background in C#, API rest, Graphql, SQL,
-                NoSql, Scrum. In 2018 I got a{" "}
+                developer for a pharmacy with an in-house Point of Sales, in
+                these years I helped improving the POS, implementing new
+                technologies and third-party functionality, like integrating
+                direct payment with PinPAD. I have a background in C#, API rest,
+                Graphql, SQL, NoSql, Scrum. In 2018 I got a{" "}
                 <a
                   href="https://confirm.udacity.com/EWPDCHSP"
                   target="_blank"
@@ -77,9 +80,9 @@ export default function Home() {
                 </a>{" "}
                 from Udacity, on Front End Developer.
                 <br />
-                Since 2020, I've been looking for work in a bigger place and to
-                improve my skills. I will be looking forward to your email if
-                you are interested.
+              </h2>
+              <h2 className="subtitle is-size-5-desktop">
+                I’m looking forward to working together.
               </h2>
             </div>
           </div>
@@ -90,7 +93,12 @@ export default function Home() {
         <div className="container">
           <div className="box bg-secondary">
             <h1 className="title">Got any questions?</h1>
-            <a className="button is-primary is-large">
+            <a
+              className="button is-primary is-large"
+              href="mailto:josedavidgale@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span>Contact Me</span>
             </a>
           </div>

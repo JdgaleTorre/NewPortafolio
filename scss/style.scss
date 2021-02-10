@@ -6,19 +6,21 @@
 // Set your brand colors
 // $blue: #58bedf;
 $blue: #084C61;
-$dark-blue: #1590b9;
-$light-blue: #b6e7f7;
+// $blue-secondary: #1590b9;
+$blue-secondary: #002530;
+$light-blue: #D1E9F0;
 $contrast: #6b797f6b;
 $gray: #bbbbbb70;
 $white: #fff;
 $white-bg: rgb(236, 232, 232);
+$contrastText: $light-blue;
+$contrastLink: #B6E7F7;
+// #110909;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 $primary: $blue;
-$secondary: $dark-blue;
-$dark: $contrast;
-$link: $primary;
+$secondary: $blue-secondary;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 

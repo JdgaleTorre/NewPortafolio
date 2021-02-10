@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderComponent = (): JSX.Element => {
   return (
-    <div >
+    <div>
       <div className="container">
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
@@ -34,7 +34,11 @@ const HeaderComponent = (): JSX.Element => {
             </div>
             <div className="navbar-end">
               <div className="navbar-item">
-                <a className="button is-primary">
+                <a
+                  className="button is-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span>Contact Me</span>
                 </a>
               </div>

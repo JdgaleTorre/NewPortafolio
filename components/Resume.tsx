@@ -10,7 +10,11 @@ const ResumeComponent = (): JSX.Element => {
             <div className="title">You can find me:</div>
             <div className="columns">
               <div className="column is-clickable">
-                <a href="https://github.com/JdgaleTorre" target="_blank">
+                <a
+                  href="https://github.com/JdgaleTorre"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <div className="subtitle">Github</div>
                   <Image
                     src="/svg/icons8-github.svg"
@@ -24,6 +28,7 @@ const ResumeComponent = (): JSX.Element => {
                 <a
                   href="https://www.linkedin.com/in/josedavidgale/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="subtitle">Linked In</div>
                   <Image
