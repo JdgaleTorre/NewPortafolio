@@ -8,7 +8,7 @@ const SkillsComponent = (): JSX.Element => {
         <div className="container">
           <div className="hero-body">
             <div className="columns">
-              <div className="column">
+              <div className="column margin-auto">
                 <Image
                   src="/svg/undraw_Scrum_board_re_wk7v.svg"
                   alt="Picture of code"
@@ -21,7 +21,7 @@ const SkillsComponent = (): JSX.Element => {
                   <strong>Skills</strong>
                 </div>
                 <div className="columns  is-mobile is-flex-wrap-wrap">
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Html 5</div>
@@ -34,7 +34,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">CSS 3</div>
@@ -47,7 +47,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Javascript</div>
@@ -60,7 +60,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Sass</div>
@@ -73,7 +73,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Angular</div>
@@ -86,7 +86,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">React</div>
@@ -99,7 +99,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">NextJS</div>
@@ -112,7 +112,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Graphql</div>
@@ -125,7 +125,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">MongoDb</div>
@@ -138,7 +138,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Bootstrap</div>
@@ -151,7 +151,7 @@ const SkillsComponent = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="column is-one-quarter-desktop is-half-mobile">
+                  <div className="column is-one-quarter-desktop is-half-mobile mb-3">
                     <div className="card skill">
                       <div className="card-content">
                         <div className="skill-title">Bulma</div>
