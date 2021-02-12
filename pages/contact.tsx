@@ -1,12 +1,20 @@
 import React from "react";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import FooterComponent from "../components/Footer";
+import { NextPage } from "next";
 
-export default function Contact() {
+interface Props {
+  FORMSPREEURL?: string;
+}
+
+const Contact: NextPage<Props> = ({ FORMSPREEURL = "" }) => {
+  const formSpreeURL = 'https://formspree.io/f/mjvpdbpg';
+
   const handleSubmit = (ev) => {
     ev.preventDefault();
     const form = ev.target;
+    // form.action = process.env.FORMSPREE;
+    // console.log(formSpreeURL);
     const data = new FormData(form);
     const xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action);
@@ -62,7 +70,7 @@ export default function Contact() {
                 <div className="card-content">
                   <form
                     onSubmit={handleSubmit}
-                    action="https://formspree.io/f/mqkgjrkr"
+                    action={formSpreeURL}
                     method="POST"
                   >
                     <div className="field is-horizontal">
@@ -104,7 +112,9 @@ export default function Contact() {
 
                     <div className="field">
                       <div className="control">
-                        <button className="button is-primary is-large">Submit</button>
+                        <button className="button is-primary is-large">
+                          Submit
+                        </button>
                       </div>
                     </div>
                     {/* {status === "SUCCESS" ? (
@@ -122,4 +132,16 @@ export default function Contact() {
       </section>
     </>
   );
+};
+
+export async function getStaticProps() {
+  const formSpreeURL = process.env.FORMSPREE;
+
+  return {
+    props: {
+      formSpreeURL,
+    },
+  };
 }
+
+export default Contact;

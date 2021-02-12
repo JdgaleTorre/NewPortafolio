@@ -19,7 +19,7 @@ const PresentationComponent = (): JSX.Element => {
                 </div>
                 <a className="button is-primary" href="#aboutMe">
                   <span>Information About Me</span>
-                  <span className="icon is-small mr-2">
+                  <span className="icon is-small mr-2 ml-4">
                     <FontAwesomeIcon icon={faArrowCircleRight} />
                   </span>
                 </a>
