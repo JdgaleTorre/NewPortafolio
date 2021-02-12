@@ -3,11 +3,9 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NextPage } from "next";
 
-interface Props {
-  FORMSPREEURL?: string;
-}
 
-const Contact: NextPage<Props> = ({ FORMSPREEURL = "" }) => {
+
+const Contact: NextPage = () => {
   const formSpreeURL = 'https://formspree.io/f/mjvpdbpg';
 
   const handleSubmit = (ev) => {
@@ -133,15 +131,5 @@ const Contact: NextPage<Props> = ({ FORMSPREEURL = "" }) => {
     </>
   );
 };
-
-export async function getStaticProps() {
-  const formSpreeURL = process.env.FORMSPREE;
-
-  return {
-    props: {
-      formSpreeURL,
-    },
-  };
-}
 
 export default Contact;
