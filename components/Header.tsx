@@ -4,7 +4,7 @@ const HeaderComponent = (): JSX.Element => {
   return (
     <div>
       <div className="container">
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item">Jose David Gale</a>
             <a
@@ -22,7 +22,11 @@ const HeaderComponent = (): JSX.Element => {
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item" href="#resume">
+              <a
+                className="navbar-item"
+                href="https://github.com/JdgaleTorre/JdgaleTorre/raw/master/resume/JoseDavidGale_Resume.pdf"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
               <a className="navbar-item" href="#skills">
@@ -36,8 +40,8 @@ const HeaderComponent = (): JSX.Element => {
               <div className="navbar-item">
                 <a
                   className="button is-primary"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  href="/contact"
                 >
                   <span>Contact Me</span>
                 </a>

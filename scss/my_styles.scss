@@ -64,7 +64,7 @@ html {
   color: $contrastText;
 }
 
-.card {
+.card.skill {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@ html {
   margin: auto;
 }
 
-@media screen and (max-width: $tablet - 1px) {
+@media screen and (max-width: $desktop - 1px) {
   .image-presentation {
     margin-left: -5rem;
   }
@@ -115,6 +115,8 @@ html {
     margin: -2rem 1rem 1rem 1rem;
   }
 }
+
+
 
 @include mobile {
   .skill-title {

@@ -40,13 +40,18 @@ const ResumeComponent = (): JSX.Element => {
                 </a>
               </div>
               <div className="column is-clickable">
-                <div className="subtitle">Get My Resume</div>
-                <Image
-                  src="/svg/undraw_Resume_re_hkth.svg"
-                  alt="Resume picture"
-                  width="100"
-                  height="100"
-                />
+                <a
+                  href="https://github.com/JdgaleTorre/JdgaleTorre/raw/master/resume/JoseDavidGale_Resume.pdf"
+                  rel="noopener noreferrer"
+                >
+                  <div className="subtitle">Get My Resume</div>
+                  <Image
+                    src="/svg/undraw_Resume_re_hkth.svg"
+                    alt="Resume picture"
+                    width="100"
+                    height="100"
+                  />
+                </a>
               </div>
             </div>
           </div>
