@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -37,15 +38,13 @@ const FooterComponent = (): JSX.Element => {
                 </span>
               </a>
 
-              <a
-                href="mailto:josedavidgale@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon is-medium mr-2">
-                  <FontAwesomeIcon icon={faEnvelopeSquare} />
-                </span>
-              </a>
+              <Link  href="/contact">
+                <a>
+                  <span className="icon is-medium mr-2">
+                    <FontAwesomeIcon icon={faEnvelopeSquare} />
+                  </span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,16 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 const HeaderComponent = (): JSX.Element => {
-
   const navBurgerClick = (e) => {
-
     var NavBurger = document.getElementById("navbar-burger");
     var NavMenu = document.getElementById("navbar-menu");
 
     NavBurger.classList.toggle("is-active");
     NavMenu.classList.toggle("is-active");
-
-  }
+  };
 
   return (
     <nav
@@ -64,13 +62,13 @@ const HeaderComponent = (): JSX.Element => {
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
-              <a
-                className="button is-primary"
-                rel="noopener noreferrer"
-                href="/contact"
-              >
-                <span>Contact Me</span>
-              </a>
+              <Link href="/contact">
+                <a
+                  className="button is-primary"
+                >
+                  <span>Contact Me</span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

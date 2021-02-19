@@ -3,6 +3,8 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import Head from "next/head";
 
 const Contact: NextPage = () => {
   const router = useRouter();
@@ -25,11 +27,16 @@ const Contact: NextPage = () => {
       }
     };
     xhr.send(data);
-    router.push('/');
+    router.push("/");
   };
 
   return (
     <>
+      <Head>
+        <title>Contact - Jose David Gale</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <nav
         className="navbar is-spaced"
         role="navigation"
@@ -37,19 +44,21 @@ const Contact: NextPage = () => {
       >
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item">Jose David Gale</a>
+            <Link href="/">
+              <a className="navbar-item">Jose David Gale</a>
+            </Link>
           </div>
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-end">
               <div className="navbar-item">
-                <a
-                  className="button is-medium is-ghost"
-                  rel="noopener noreferrer"
-                  href="/"
-                >
-                  <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
-                </a>
+                <Link href="/">
+                  <a className="button is-medium is-ghost">
+                    <span className="icon is-medium mr-2">
+                      <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
+                    </span>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

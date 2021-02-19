@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HeaderComponent from "../components/Header";
 import React from "react";
+import Link from 'next/link';
 import PresentationComponent from "../components/Presentation";
 import SkillsComponent from "../components/Skills";
 import TextSectionComponent from "../components/TextSection";
@@ -91,14 +92,13 @@ export default function Home() {
         <div className="container">
           <div className="box bg-secondary">
             <h1 className="title">Got any questions?</h1>
-            <a
-              className="button is-primary is-large"
-              href="mailto:josedavidgale@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>Contact Me</span>
-            </a>
+            <Link href="/contact">
+              <a
+                className="button is-primary is-large"
+              >
+                <span>Contact Me</span>
+              </a>
+            </Link>
           </div>
         </div>
       </section>
