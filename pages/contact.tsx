@@ -2,17 +2,15 @@ import React from "react";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NextPage } from "next";
-
-
+import { useRouter } from "next/router";
 
 const Contact: NextPage = () => {
-  const formSpreeURL = 'https://formspree.io/f/mjvpdbpg';
+  const router = useRouter();
+  const formSpreeURL = "https://formspree.io/f/mjvpdbpg";
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
     const form = ev.target;
-    // form.action = process.env.FORMSPREE;
-    // console.log(formSpreeURL);
     const data = new FormData(form);
     const xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action);
@@ -27,6 +25,7 @@ const Contact: NextPage = () => {
       }
     };
     xhr.send(data);
+    router.push('/');
   };
 
   return (
@@ -70,6 +69,7 @@ const Contact: NextPage = () => {
                     onSubmit={handleSubmit}
                     action={formSpreeURL}
                     method="POST"
+                    id="contactForm"
                   >
                     <div className="field is-horizontal">
                       <div className="field-label is-normal">
@@ -82,6 +82,8 @@ const Contact: NextPage = () => {
                               className="input"
                               type="text"
                               placeholder="Name"
+                              name="Name"
+                              required
                             />
                           </p>
                         </div>
@@ -91,6 +93,8 @@ const Contact: NextPage = () => {
                               className="input"
                               type="email"
                               placeholder="Email"
+                              name="Email"
+                              required
                             />
                           </p>
                         </div>
@@ -103,7 +107,9 @@ const Contact: NextPage = () => {
                       <div className="control">
                         <textarea
                           className="textarea"
-                          placeholder="Textarea"
+                          placeholder=""
+                          name="Message"
+                          required
                         ></textarea>
                       </div>
                     </div>

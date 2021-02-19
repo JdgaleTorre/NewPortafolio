@@ -11,7 +11,7 @@ const PortfolioComponent = (): JSX.Element => {
           <div className="title">See my Work</div>
           <div className="columns is-flex-wrap-wrap">
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card portafolio">
                 <div className="card-header">
                   <div className="card-header-title">Game of Life</div>
                 </div>
@@ -64,7 +64,7 @@ const PortfolioComponent = (): JSX.Element => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card portafolio">
                 <div className="card-header">
                   <div className="card-header-title">Pomodoro Timer</div>
                 </div>
@@ -118,7 +118,7 @@ const PortfolioComponent = (): JSX.Element => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card portafolio">
                 <div className="card-header">
                   <div className="card-header-title">Knight's tour</div>
                 </div>
@@ -163,7 +163,7 @@ const PortfolioComponent = (): JSX.Element => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card portafolio">
                 <div className="card-header">
                   <div className="card-header-title">Memory Game</div>
                 </div>
@@ -210,26 +210,50 @@ const PortfolioComponent = (): JSX.Element => {
               </div>
             </div>
             <div className="column is-one-third">
-              <div className="card">
+              <div className="card portafolio">
                 <div className="card-header">
                   <div className="card-header-title">Chat Room</div>
                 </div>
                 <div className="card-content">
                   <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
+                  Simple ChatRoom where you can connect with your Google Account to chat with anyone if they're connected. It uses{" "}
+                    <a
+                      href="https://firebase.google.com/?hl=es-419&gclid=Cj0KCQiAvbiBBhD-ARIsAGM48bwx6b8kWAdCFRVSRMdw7K0kmurARE96Ul-YcuPTP4lvckHr9D1zY14aAmq4EALw_wcB"
+                      target="_blank"
+                      className="special-link"
+                      rel="noopener noreferrer"
+                    >
+                      Firebase
+                    </a>{" "}
+                    as a BackEnd to manage messages.
                     <br />
+                    <br />
+                    <div className="tags">
+                      <span className="tag is-primary">React</span>
+                      <span className="tag is-primary">Html</span>
+                      <span className="tag is-primary">CSS</span>
+                      <span className="tag is-primary">Bulma</span>
+                    </div>
                   </div>
                 </div>
                 <footer className="card-footer">
-                  <a href="#" className="card-footer-item">
+                  <a
+                    href="https://chatroom-e9fc7.web.app/"
+                    target="_blank"
+                    className="card-footer-item"
+                    rel="noopener noreferrer"
+                  >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faEye} />
                     </span>
                     Demo
                   </a>
-                  <a href="#" className="card-footer-item">
+                  <a
+                    href="https://github.com/JdgaleTorre/ChatRoom"
+                    target="_blank"
+                    className="card-footer-item"
+                    rel="noopener noreferrer"
+                  >
                     <span className="icon is-medium mr-3">
                       <FontAwesomeIcon icon={faGithub} />
                     </span>
