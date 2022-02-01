@@ -18,16 +18,9 @@ const HeaderComponent = (): JSX.Element => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <a href="/" className="navbar-item">
-            {/* <Image
-              className="navbar-item"
-              src="/svg/drawing.svg"
-              alt="Logo"
-              width="400"
-              height="200"
-            /> */}
-            Jose David Gale
-          </a>
+          <Link href="/">
+            <a className="navbar-item">Jose David Gale</a>
+          </Link>
 
           <a
             role="button"
@@ -63,9 +56,7 @@ const HeaderComponent = (): JSX.Element => {
           <div className="navbar-end">
             <div className="navbar-item">
               <Link href="/contact">
-                <a
-                  className="button is-primary"
-                >
+                <a className="button is-primary">
                   <span>Contact Me</span>
                 </a>
               </Link>

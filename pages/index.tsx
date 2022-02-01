@@ -1,7 +1,7 @@
 import Head from "next/head";
 import HeaderComponent from "../components/Header";
 import React from "react";
-import Link from 'next/link';
+import Link from "next/link";
 import PresentationComponent from "../components/Presentation";
 import SkillsComponent from "../components/Skills";
 import TextSectionComponent from "../components/TextSection";
@@ -27,9 +27,9 @@ export default function Home() {
                 Nice to meet you.
               </h1>
               <h2 className="subtitle is-size-5-desktop">
-                I'm quietly confident, naturally curious, and perpetually
+                {`I'm quietly confident, naturally curious, and perpetually
                 working on improving my developing skills. I hope you like my
-                work (You can see it{" "}
+                work (You can see it`}
                 <a className="contrast-color" href="#portfolio">
                   here
                 </a>
@@ -42,16 +42,6 @@ export default function Home() {
       <ResumeComponent></ResumeComponent>
       <PortfolioComponent></PortfolioComponent>
       <SkillsComponent></SkillsComponent>
-
-      {/* <footer className="section is-primary has-text-centered">
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <img src="/vercel.svg" alt="Vercel Logo" />
-        </a>
-      </footer> */}
       <section
         className="section is-medium has-text-centered is-long mb-6"
         id="aboutMe"
@@ -63,12 +53,12 @@ export default function Home() {
                 About Me
               </h1>
               <h2 className="subtitle is-size-5-desktop">
-                I'm a developer from Honduras, I've been working since 2011 as a
+                {`I'm a developer from Honduras, I've been working since 2011 as a
                 developer for a pharmacy with an in-house Point of Sales, in
                 these years I helped improving the POS, implementing new
                 technologies and third-party functionality, like integrating
                 direct payment with PinPAD. I have a background in C#, API rest,
-                Graphql, SQL, NoSql, Scrum. In 2018 I got a{" "}
+                Graphql, SQL, NoSql, Scrum. In 2018 I got a`}
                 <a
                   href="https://confirm.udacity.com/EWPDCHSP"
                   target="_blank"
@@ -81,7 +71,7 @@ export default function Home() {
                 <br />
               </h2>
               <h2 className="subtitle is-size-5-desktop">
-                I’m looking forward to working together.
+                {`I’m looking forward to working together.`}
               </h2>
             </div>
           </div>
@@ -93,9 +83,7 @@ export default function Home() {
           <div className="box bg-secondary">
             <h1 className="title">Got any questions?</h1>
             <Link href="/contact">
-              <a
-                className="button is-primary is-large"
-              >
+              <a className="button is-primary is-large">
                 <span>Contact Me</span>
               </a>
             </Link>

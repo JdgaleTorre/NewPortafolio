@@ -120,13 +120,13 @@ const PortfolioComponent = (): JSX.Element => {
             <div className="column is-one-third">
               <div className="card portafolio">
                 <div className="card-header">
-                  <div className="card-header-title">Knight's tour</div>
+                  <div className="card-header-title">{`Knight's tour`}</div>
                 </div>
                 <div className="card-content">
                   <div className="content">
-                    A knight's tour is a sequence of moves of a knight on a
+                    {`A knight's tour is a sequence of moves of a knight on a
                     chessboard such that the knight visits every square exactly
-                    once.
+                    once.`}
                     <br />
                     <br />
                     <div className="tags">
@@ -216,7 +216,7 @@ const PortfolioComponent = (): JSX.Element => {
                 </div>
                 <div className="card-content">
                   <div className="content">
-                  Simple ChatRoom where you can connect with your Google Account to chat with anyone if they're connected. It uses{" "}
+                  {`Simple ChatRoom where you can connect with your Google Account to chat with anyone if they're connected. It uses`}
                     <a
                       href="https://firebase.google.com/?hl=es-419&gclid=Cj0KCQiAvbiBBhD-ARIsAGM48bwx6b8kWAdCFRVSRMdw7K0kmurARE96Ul-YcuPTP4lvckHr9D1zY14aAmq4EALw_wcB"
                       target="_blank"
