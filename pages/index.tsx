@@ -29,7 +29,7 @@ export default function Home() {
               <h2 className="subtitle is-size-5-desktop">
                 {`I'm quietly confident, naturally curious, and perpetually
                 working on improving my developing skills. I hope you like my
-                work (You can see it`}
+                work (You can see it `}
                 <a className="contrast-color" href="#portfolio">
                   here
                 </a>
@@ -58,7 +58,7 @@ export default function Home() {
                 these years I helped improving the POS, implementing new
                 technologies and third-party functionality, like integrating
                 direct payment with PinPAD. I have a background in C#, API rest,
-                Graphql, SQL, NoSql, Scrum. In 2018 I got a`}
+                Graphql, SQL, NoSql, Scrum. In 2018 I got a `}
                 <a
                   href="https://confirm.udacity.com/EWPDCHSP"
                   target="_blank"
