@@ -14,7 +14,7 @@ const PresentationComponent = (): JSX.Element => {
                 <div className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
                   {`Hi, I'm`} <br /> <strong>Jose David Gale.</strong>
                   <div className="subtitle">
-                    {`I'm a Front End Developer from Honduras.`}
+                    {`I'm a Full Stack Developer from Honduras.`}
                   </div>
                 </div>
                 <a className="button is-primary" href="#aboutMe">

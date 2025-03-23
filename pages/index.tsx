@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <HeaderComponent></HeaderComponent>
-      <PresentationComponent></PresentationComponent>
+      <HeaderComponent />
+      <PresentationComponent />
       <div className="message">
         <TextSectionComponent>
           <div className="columns is-centered">
